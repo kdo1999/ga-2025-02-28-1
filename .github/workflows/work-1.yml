@@ -13,7 +13,7 @@ jobs:
       run: sleep 10 #10 초 대기
     - name: sayMyName
       run: echo "{{ gihub.actor }}"
-  hello1:
+  hello2:
     runs-on: ubuntu-latest
     steps:
     - name: sayHi
